@@ -22,8 +22,10 @@
         "lint": "eslint \"**/*.{js,jsx,ts,tsx,json,md}\"",
         "lint-fix": "yarn lint --fix",
         "quick": "pretty-quick --staged",
-        "postinstall": "husky install"
+        "postinstall": "husky install",
+        "install": "npm install --force"
     },
+
     "lint-staged": {
         "*.{js,jsx,ts,tsx,json,md}": "eslint --fix"
     },
